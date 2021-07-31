@@ -94,8 +94,6 @@ int HEX_NUMBER (){
         if(i <= 159){
             printf("\\x%X",i);
             fprintf(fptr,"\\x%X",i);
-
-
         } 
     }  
     printf("\n");
@@ -120,8 +118,7 @@ int HEX_NUMBER (){
     for (i = 192; i <= a ; i ++){ 
         if(i <= 207){
             printf("\\x%X",i);
-            fprintf(fptr,"\\x%X",i);
-            
+            fprintf(fptr,"\\x%X",i);          
         } 
     }  
     printf("\n");
